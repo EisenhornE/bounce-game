@@ -32,4 +32,14 @@ public class DeathPoint : MonoBehaviour
         isDead = false;
     }
 
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player") && !isDead)
+        {
+            Debug.Log("Player has died");
+            isDead = true;
+            ResetPosition();
+        }
+    }
+
 }
