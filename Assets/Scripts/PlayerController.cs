@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public float speed = 10f;
     [SerializeField] public float jumpForce = 8f;
     public bool isOnGround;
-    [SerializeField] public float gravModifier = 2f;
 
     void Start()
     {
@@ -25,14 +24,18 @@ public class PlayerController : MonoBehaviour
             rb.velocity = Vector2.up * jumpForce;
         }
 
-        if (rb.velocity.y < 0)
-        {
-            rb.AddForce(Vector2.down * gravModifier);
-        }
-
         if (rb.velocity.x == 10)
         {
             Vector2.ClampMagnitude(rb.velocity, speed);
+        }
+
+        if (rb.velocity.x < 0)
+        {
+            rb.gravityScale = 2f;
+        }
+        else
+        {
+            rb.gravityScale = 1f;
         }
 
     }

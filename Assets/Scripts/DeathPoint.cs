@@ -25,7 +25,7 @@ public class DeathPoint : MonoBehaviour
         }
     }
 
-    void ResetPosition()
+    public void ResetPosition()
     {
         playerRb.transform.position = StartPosition;
         playerRb.velocity = Vector2.zero;

@@ -3226,10 +3226,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4160839533527358773, guid: 007253ca9a1396d4fb630a95d0ab0ffa, type: 3}
-      propertyPath: gravModifier
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4160839533527358777, guid: 007253ca9a1396d4fb630a95d0ab0ffa, type: 3}
       propertyPath: m_RootOrder
       value: 6
