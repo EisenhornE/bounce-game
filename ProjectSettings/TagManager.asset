@@ -9,6 +9,7 @@ TagManager:
   - Death
   - Score
   - Spike
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
