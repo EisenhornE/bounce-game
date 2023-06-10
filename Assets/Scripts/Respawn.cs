@@ -6,11 +6,13 @@ public class Respawn : MonoBehaviour
 {
     private Vector2 startPosition;
     private Rigidbody2D rb;
+    private GameManager _gameManager;
 
     void Start()
     {
         startPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
+        _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -31,7 +33,14 @@ public class Respawn : MonoBehaviour
 
     void RespawnFunc()
     {
-        transform.position = startPosition;
+        if (_gameManager.lastCheckpointPos != startPosition)
+        {
+            transform.position = _gameManager.lastCheckpointPos;
+        }
+        else
+        {
+            transform.position = startPosition;
+        }
         rb.velocity = Vector2.zero;
     }
 }

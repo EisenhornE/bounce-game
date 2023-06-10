@@ -4,10 +4,25 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    private static GameManager _instance;
+    public Vector2 lastCheckpointPos;
+    private Respawn _respawn;
 
-    // private bool gameEnded = false;
-    // private GameObject CompleteLevelUI;
+    void Start()
+    {
+        _respawn = GameObject.FindGameObjectWithTag("Player").GetComponent<Respawn>();
+        _respawn.transform.position = lastCheckpointPos;
+    }
 
-
-
+    void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 }
