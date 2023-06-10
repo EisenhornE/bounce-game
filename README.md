@@ -15,7 +15,7 @@ The Bounce game features a ball that bounces off walls and obstacles, controlled
 
 ## Project Status
 
-The development of this game is currently on hiatus due to ongoing college classes. However, the existing stages provide a foundation for further development.
+The development of this game is currently ongoing. But at a slow pace to avoid burnout.
 
 ## Future Improvements
 
