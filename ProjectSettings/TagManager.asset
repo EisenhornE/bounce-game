@@ -11,6 +11,7 @@ TagManager:
   - Spike
   - Checkpoint
   - GameManager
+  - ScoreManager
   layers:
   - Default
   - TransparentFX
