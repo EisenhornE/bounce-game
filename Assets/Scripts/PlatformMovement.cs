@@ -31,12 +31,21 @@ public class PlatformMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.collider.transform.SetParent(transform);
+        if (collision.collider.CompareTag("Player"))
+        {
+            if (transform.position.y < collision.collider.transform.position.y)
+            {
+                collision.collider.transform.SetParent(transform);
+            }
+        }
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        collision.collider.transform.SetParent(null);
+        if (collision.collider.CompareTag("Player"))
+        {
+            collision.collider.transform.SetParent(null);
+        }
     }
 
 }

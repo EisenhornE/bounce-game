@@ -59,7 +59,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5670250156011301924}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -51.2056, y: -11.6104, z: 1.0775604}
+  m_LocalPosition: {x: 7, y: 0, z: 1.0775604}
   m_LocalScale: {x: 0.8909957, y: 0.8553327, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -143,7 +143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5776163500594270029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -63.394398, y: -11.6104, z: 1.0775604}
+  m_LocalPosition: {x: -7, y: 0, z: 1.0775604}
   m_LocalScale: {x: 0.8909957, y: 0.8553327, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 2719156784028556316}
   - component: {fileID: 6802900204898531889}
   - component: {fileID: 8909253523954604614}
-  - component: {fileID: 2827475742522149222}
+  - component: {fileID: 1785357883430570489}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -230,7 +230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6451098746400290325}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -57.3, y: -11.6104, z: 1.0775604}
+  m_LocalPosition: {x: 0, y: 0, z: 1.0775604}
   m_LocalScale: {x: 6.7942, y: 0.3792, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -333,8 +333,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &2827475742522149222
-BoxCollider2D:
+--- !u!68 &1785357883430570489
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -366,15 +366,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.50268734, y: 0.4815424}
+  - {x: 0.5000002, y: 0.48154235}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
