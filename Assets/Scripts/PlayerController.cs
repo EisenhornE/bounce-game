@@ -42,15 +42,15 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Top"))
+        if (collision.gameObject.CompareTag("Top") || collision.gameObject.name == "Platform")
         {
             isOnGround = true;
         }
     }
 
-    void OnCollisionExit2D(Collision2D other)
+    void OnCollisionExit2D(Collision2D collision)
     {
-        if (other.gameObject.CompareTag("Top"))
+        if (collision.gameObject.CompareTag("Top") || collision.gameObject.name == "Platform")
         {
             isOnGround = false;
         }
