@@ -1,23 +1,25 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class ScoreUpdate : MonoBehaviour
 {
-    private static int scorePoints = 0;
-    public TMP_Text scoreText;
+    private static int _scorePoints = 0;
+    private TMP_Text _scoreText;
 
     void Start()
     {
-        scoreText.text = "Score: " + scorePoints;
+        _scoreText = GameObject.Find("Score").GetComponent<TMP_Text>();
+        _scoreText.text = "Score: " + _scorePoints;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            scorePoints += 100;
-            scoreText.text = "Score: " + scorePoints;
-            Debug.Log("Score: " + scorePoints);
+            _scorePoints += 100;
+            _scoreText.text = "Score: " + _scorePoints;
+            Debug.Log("Score: " + _scorePoints);
             Destroy(gameObject);
         }
     }
