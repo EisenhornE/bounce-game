@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7207619240866137142}
   - component: {fileID: 437836392569297917}
   - component: {fileID: 5125559428935834444}
-  - component: {fileID: 6027436263396045002}
+  - component: {fileID: 2969321090781395326}
   m_Layer: 0
   m_Name: Point
   m_TagString: Score
@@ -134,7 +134,7 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
---- !u!114 &6027436263396045002
+--- !u!114 &2969321090781395326
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,4 +146,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eadba0665bd3fa42807fe4d342c8e6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 4161128876742231227, guid: dea304b193ee14a4081cda200c460356, type: 3}

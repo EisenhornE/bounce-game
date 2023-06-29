@@ -4561,7 +4561,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score: 300'
+  m_text: 'Score: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6947,6 +6947,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4161128876742231227, guid: dea304b193ee14a4081cda200c460356, type: 3}
+      propertyPath: m_text
+      value: 'Score: 0'
+      objectReference: {fileID: 0}
     - target: {fileID: 7968811661354222425, guid: dea304b193ee14a4081cda200c460356, type: 3}
       propertyPath: m_Name
       value: Score
@@ -7350,10 +7354,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Point
       objectReference: {fileID: 0}
-    - target: {fileID: 6027436263396045002, guid: 8ef6fe622270b8e4da2b4c308d20a1ea, type: 3}
-      propertyPath: scoreText
-      value: 
-      objectReference: {fileID: 1440094405}
     - target: {fileID: 7207619240866137142, guid: 8ef6fe622270b8e4da2b4c308d20a1ea, type: 3}
       propertyPath: m_RootOrder
       value: -1
