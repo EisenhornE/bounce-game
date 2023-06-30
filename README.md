@@ -1,10 +1,6 @@
 # Bounce Game (Abandoned)
 
-This project is an abandoned game inspired by the classic mobile game called Bounce. It aims to recreate the simple and addictive gameplay of the original game.
-
-# Status
-
-Project Abandoned. My knowledge of creating logic in transitioning between scenes is still lacking. I'll create a newer simpler project. I'll probably return to this project at a later date once I think I'm good enough.
+This project is an abandoned game inspired by the classic mobile game called Bounce. It aims to recreate the simple and addictive gameplay of the original gam
 
 ## Description
 
@@ -19,21 +15,4 @@ The Bounce game features a ball that bounces off walls and obstacles, controlled
 
 ## Project Status
 
-The development of this game is currently ongoing. But at a slow pace to avoid burnout.
-
-## Future Improvements
-
-The following improvements are planned for future development:
-
-- Implement sound effects for interactions and game events
-- Complete the remaining stages to provide a full game experience
-- Refine gameplay mechanics and add power-ups or additional features
-
-## Development Environment
-
-The game is developed using the Unity game engine and written in C#. It requires Unity version 2021.3.18f1 or higher.
-
-## How to Play
-
-1. Game is still not available
-
+Project Abandoned. My knowledge of creating logic in transitioning between scenes is still lacking. I'll create a newer simpler project. Also, my lack of knowledge of using Git practically ruined this project. A git revert destroyed stages that took some time to fix and I'm already tired of this project anyway. I'll probably return to this project at a later date once I think I'm good enough,
