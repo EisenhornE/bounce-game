@@ -1,6 +1,6 @@
 # Bounce Game (Abandoned)
 
-This project is an abandoned game inspired by the classic mobile game called Bounce. It aims to recreate the simple and addictive gameplay of the original gam
+This project is an abandoned game inspired by the classic mobile game called Bounce. It aims to recreate the simple and addictive gameplay of the original game.
 
 ## Description
 
