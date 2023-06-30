@@ -1,6 +1,10 @@
-# Bounce Game (Work in Progress)
+# Bounce Game (Abandoned)
 
-This project is an incomplete game inspired by the classic mobile game called Bounce. It aims to recreate the simple and addictive gameplay of the original game.
+This project is an abandoned game inspired by the classic mobile game called Bounce. It aims to recreate the simple and addictive gameplay of the original game.
+
+# Status
+
+Project Abandoned. My knowledge of creating logic in transitioning between scenes is still lacking. I'll create a newer simpler project. I'll probably return to this project at a later date once I think I'm good enough.
 
 ## Description
 
@@ -33,6 +37,3 @@ The game is developed using the Unity game engine and written in C#. It requires
 
 1. Game is still not available
 
-## Acknowledgments
-
-The project is developed for educational purposes and as part of my project Portfolios.
